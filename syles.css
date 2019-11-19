@@ -1,1 +1,39 @@
+h {text-align:center;
+  color:teal;
+  font-size: 100px;
+  font-style: italic;
+ 
+}
+body {
+ background-color:lightblue;
+}
 
+p {color:teal;
+  font-size: 20px;
+  text-align:;
+}
+img {id="Bot"
+ 
+}
+
+li {
+  font-size:30px;
+  text-align:
+}
+header {
+	padding: 0 15px;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+.column {
+	flex: 1;
+	border: 1px solid gray;
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
