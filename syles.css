@@ -21,14 +21,14 @@ li {
   text-align:
 }
 header {
-	padding: 0 15px;
+	padding:15px;
 }
 
 .columns {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	margin: 5px 0;
+	margin: 5px;
 }
 .column {
 	flex: 1;
