@@ -2,6 +2,7 @@ h {text-align:center;
   color:teal;
   font-size: 100px;
   font-style: italic;
+  padding: 14px 16px;
  
 }
 body {
@@ -9,6 +10,7 @@ body {
 }
 
 p {color:teal;
+  padding: 14px 16px;
   font-size: 20px;
   text-align:;
 }
@@ -26,6 +28,7 @@ header {
 
 .columns {
 	display: flex;
+  padding: 14px 16px;
 	flex-flow: row wrap;
 	justify-content: center;
 	margin: 5px;
@@ -34,6 +37,6 @@ header {
 	flex: 1;
 	border: 1px solid gray;
 	margin: 2px;
-	padding: 10px;
+	padding: 20px;
 	&:first-child { margin-left: 0; }
 	&:last-child { margin-right: 0; }
